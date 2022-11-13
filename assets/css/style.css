@@ -422,7 +422,7 @@ main {
   margin-bottom: 2px;
 }
 
-.contact-info :is(.contact-link, time, address) {
+.contact-info :is(.contact-link, time, address, div) {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
