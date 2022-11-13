@@ -1537,7 +1537,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .form-btn ion-icon { font-size: 18px; }
-
+  .contact-text{
+	  color: var(--light-gray);
+	  font-size: var(--fs-6);
+	  font-weight: var(--fw-300);
+	  line-height: 1.6;
+  }
 }
 
 
