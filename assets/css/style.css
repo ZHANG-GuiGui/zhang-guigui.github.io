@@ -160,7 +160,6 @@ body { background: var(--smoky-black); }
 
 
 
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -504,7 +503,13 @@ main {
 	border: 10px;
 }
 .myban img{
+	height: auto;
+	max-width: 100%;
 	float: left;
+}
+.container {
+	height: auto;
+	max-width: 100%;
 }
 
 /*-----------------------------------*\
