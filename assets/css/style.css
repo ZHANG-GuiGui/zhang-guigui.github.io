@@ -506,6 +506,7 @@ main {
 	height: auto;
 	max-width: 100%;
 	float: left;
+	margin-bottom: 15px;
 }
 .container {
 	height: auto;
