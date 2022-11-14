@@ -487,9 +487,25 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
+/*-----------------------------------*\
+  #BLOGS
+\*-----------------------------------*/
+.blogs .article-title { margin-bottom: 15px; }
 
+.blogs-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
-
+.blogs-text p { margin-bottom: 15px; }
+.myban {
+	border: 10px;
+}
+.myban img{
+	float: left;
+}
 
 /*-----------------------------------*\
   #ABOUT
