@@ -130,7 +130,7 @@ a { text-decoration: none; }
 /* ul {list-style-type: circle;} */
 li { list-style: circle; }
 
-img, ion-icon, button, time, span { display: block; }
+img, ion-icon, button, header, time, span { display: block; }
 
 button {
   font: inherit;
@@ -501,13 +501,17 @@ main {
 
 .blogs-text p { margin-bottom: 15px; }
 .myban {
-	border: 10px;
-	width: 100%;
-}
-.myban img{
-	height: auto;
+	display: block;
 	width: 100%;
 	float: left;
+}
+.myban img{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	height:auto;
+	float: left;
+	overflow: hidden;
 	margin-bottom: 15px;
 }
 
