@@ -127,7 +127,8 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+/* ul {list-style-type: circle;} */
+li { list-style: circle; }
 
 img, ion-icon, button, time, span { display: block; }
 
@@ -501,17 +502,16 @@ main {
 .blogs-text p { margin-bottom: 15px; }
 .myban {
 	border: 10px;
+	width: 100%;
 }
 .myban img{
 	height: auto;
-	max-width: 100%;
+	width: 100%;
 	float: left;
 	margin-bottom: 15px;
 }
-.container {
-	height: auto;
-	max-width: 100%;
-}
+
+
 
 /*-----------------------------------*\
   #ABOUT

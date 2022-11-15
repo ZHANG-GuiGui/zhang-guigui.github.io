@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Xiaofeng Zhang - BUAA</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style type="text/css">
+		a:link {
+			color:#00e5ff;
+			text-decoration:none;
+		}
+		a:visited {
+			color:#ffea00;
+			text-decoration:none;
+		}
+		a:hover {
+			color:red;
+			text-decoration:none;
+		}
+		a:active {
+			color:black;
+			text-decoration:none;
+		}
+	</style>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="../assets/images/my-photo.png" alt="Xiaofeng Zhang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Xiaofeng Zhang">Xiaofeng Zhang</h1>
+
+          <p class="title">NLPer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:xiaofng.zhang@gmail.com" class="contact-link">mygmail</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="language-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Language</p>
+
+              <div>Chinese, French, English</div>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-08-01">Aug., 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Beijing, China</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/guillaume.zhang.98" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.twitter.com/AZUREANg" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+         <li class="social-item">
+            <a href="https://www.github.com/Zhang-GuiGui" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+	
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+			<a href="../index.html">
+				<button class="navbar-link" data-nav-link>Home</button>
+			</a>
+          </li>
+
+         <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Blog</button>
+          </li>
+
+<!--          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publication</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+	  
+	<article class="blogs  active" data-page="blogs">
+	
+	  <header>
+	    <h2 class="h2 article-title">Federated News Recommendation</h2>
+	  </header>
+	
+	  <section class="blogs-text">
+	    <p>
+	      Federated Learning is proposed by Google in 2016. In this project, we try to deploy a news recommendation algorithm on a federated framework - Pysyft.
+	    </p>
+		<p>
+		  Github: <a href="https://github.com/ZHANG-GuiGui/news_reco_syft/">https://github.com/ZHANG-GuiGui/news_reco_syft/</a>
+		</p>
+		<p>
+		  CSDN: <a href="https://blog.csdn.net/weixin_45520982/article/details/116781765/">https://blog.csdn.net/weixin_45520982/article/details/116781765/</a>
+		</p>
+	  </section>
+	  
+	  <header>
+		  <h3 class="h3 article-title">Introduction</h3>
+	  </header>
+	  <section class="blogs-text">
+	    <p>
+	      Data security and personal privacy are two main concerns with regard to giant Internet companies. 
+	    </p>
+		<p>
+		  Federated Learning is about how to update the deep learning model stored on a central server without seeing training data conserved on multiple 
+		  client devices.
+		</p>
+	  </section>
+	  <div class="myban">
+	  		  <img src="../assets/images/FedRec/Fig1.png" alt="Fig1">
+	  </div>
+	  <section class="blogs-text">
+	    <p>
+	      The simplest way is to transfer encrypted gradient calculated locally on clients' devices.
+	    </p>
+	  		<p>
+	  		  Our project is more like an engineer attempt without considering fondly the theories behind Federated Learning.
+	  		</p>
+	  </section>
+	  <header>
+	  		  <h3 class="h3 article-title">Dataset and Model</h3>
+	  </header>
+	  <section class="blogs-text">
+	    <p>
+	      We used the <a href="https://msnews.github.io/">MIcrosoft News Dataset (MIND)</a>. Due to project time limitation, we conducted the 
+		  experiments on MIND-small dataset.
+	    </p>
+	  		<p>
+	  		  We used the NRMS model as the default news recommendation model.
+	  		</p>
+	  </section>
+	  <header>
+	  		  <h3 class="h3 article-title">Federated Learning Framework</h3>
+	  </header>
+	  <section class="blogs-text">
+	    <p>
+	      Pysyft 0.2.x is chosen as our deploy framework.
+	    </p>
+	  </section>
+	  <div class="myban">
+	  		  <img src="../assets/images/FedRec/Fig2.gif" alt="Fig2">
+	  </div>
+	  <header>
+	  		  <h3 class="h3 article-title">Experiments</h3>
+	  </header>
+	  <header>
+	  		  <h4 class="h4 article-title">hyper parameters setting</h4>
+	  </header>
+	  <section class="blogs-text">
+	    <ul>
+	      <li>batch size = 128</li>
+	      <li>learning rate = 5e-4 for Adam Optimizer 0.01 for SGD Optimizer</li>
+	    </ul> 
+	  </section>
+	  <header>
+	  		  <h4 class="h4 article-title">Results</h4>
+	  </header>
+	  <section class="blogs-text">
+	    <table border="1">
+	    <tr>
+	    <td><b>Name</b></td>
+	    <td>1 machine</td>
+		<td>2 machines</td>
+		<td>3 machines</td>
+		<td>4 machines</td>
+	    </tr>
+	    <tr>
+	    <td><b>Tag</b></td>
+	    <td>Orange</td>
+	    <td>Pink</td>
+	    <td>Blue</td>
+	    <td>Green</td>
+	    </tr>
+	    </table>
+	  </section>
+	  <header>
+	  		  <h5 class="h5 article-title">Loss</h5>
+	  </header>
+	  <div class="myban">
+	  		  <img src="../assets/images/FedRec/Fig3.png" alt="Fig3">
+	  </div>
+	  <header>
+	  		  <h5 class="h5 article-title">AUC</h5>
+	  </header>
+	  <div class="myban">
+	  		  <img src="../assets/images/FedRec/Fig4.png" alt="Fig4">
+	  </div>
+	  <header>
+	  		  <h5 class="h5 article-title">MRR</h5>
+	  </header>
+	  <div class="myban">
+	  		  <img src="../assets/images/FedRec/Fig5.png" alt="Fig5">
+	  </div>
+	  <header>
+	  		  <h5 class="h5 article-title">nDCG@5 and nDCG@10</h5>
+	  </header>
+	  <section class="blogs-text">
+	    <table border="1">
+	    <tr>
+	    <td><b># Working Machine</b></td>
+	    <td><b>nDCG@5</b></td>
+	  		<td><b>nDCG@10</b></td>
+	    </tr>
+	    <tr>
+	    <td>1</td>
+	    <td>0.3358</td>
+	    <td>0.398</td>
+	    </tr>
+		<tr>
+		<td>2</td>
+		<td>0.298</td>
+		<td>0.3622</td>
+		</tr>
+		<tr>
+		<td>3</td>
+		<td>0.3061</td>
+		<td>0.3701</td>
+		</tr>
+		<tr>
+		<td>4</td>
+		<td>0.2956</td>
+		<td>0.3602</td>
+		</tr>
+	    </table>
+	  </section>
+	  <section class="blogs-text">
+	    <p>
+	      <b>Team Member:</b>
+	    </p>
+		<p>
+	      HUANG Zeyu
+	      </p>
+	      <p>
+	      ZHANG Xiaofeng
+	      </p>
+	      <p>
+	      LI Yuhang
+	      </p>
+	      <p>
+	      WANG Kunyang
+	      </p>
+	      <p>
+	      TAN Ying
+	    </p>
+	    <p>
+			<b>Supervisor:</b>
+		</p>
+		<p>
+			JIANG Li @ Orange Beijing Lab
+		</p>
+	  </section>
+	</article>
+	</div>  
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
