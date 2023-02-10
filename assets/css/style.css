@@ -1166,6 +1166,25 @@ main {
   filter: grayscale(1) invert(1);
 }
 
+.calendarbox {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  border: 1px solid var(--jet);
+  overflow: hidden;
+}
+
+.calendarbox figure { height: 100%; }
+
+.calendarbox iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  filter: grayscale(0.5) invert(1);
+}
+
 .contact-form { margin-bottom: 10px; }
 
 .form-title { margin-bottom: 20px; }
@@ -1568,6 +1587,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .form-btn ion-icon { font-size: 18px; }
+  
+  .calendarbox {
+    height: 600px;
+    border-radius: 18px;
+  }
   
 /*  .box {
               position: relative;
