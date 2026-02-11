@@ -157,3 +157,31 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+
+// "View all news" link handler
+const viewAllNewsLink = document.querySelector(".view-all-news");
+if (viewAllNewsLink) {
+  viewAllNewsLink.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    for (let i = 0; i < pages.length; i++) {
+      if (pages[i].dataset.page === "news") {
+        pages[i].classList.add("active");
+      } else {
+        pages[i].classList.remove("active");
+      }
+    }
+
+    for (let i = 0; i < navigationLinks.length; i++) {
+      if (navigationLinks[i].innerHTML.toLowerCase() === "news") {
+        navigationLinks[i].classList.add("active");
+      } else {
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+
+    window.scrollTo(0, 0);
+  });
+}
